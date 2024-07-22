@@ -8,26 +8,26 @@
     <link rel="stylesheet" href="style.css" as="style">
     <!-- place your code between these tags -->
     <script async data-cfasync="false">
-        (function() {
-            const url = new URL(window.location.href);
-            const clickID = url.searchParams.get("click_id");
-            const sourceID = url.searchParams.get("source_id");
-      
-            const s = document.createElement("script");
-            s.dataset.cfasync = "false";
-            s.src = "https://sdk4push.com/f/sdk.js?z=1228500";
-            s.onload = (opts) => {
-                opts.zoneID = 1228500;
-                opts.extClickID = clickID;
-                opts.subID1 = sourceID;
-                opts.actions.onPermissionGranted = () => {};
-                opts.actions.onPermissionDenied = () => {};
-                opts.actions.onAlreadySubscribed = () => {};
-                opts.actions.onError = () => {};
-            };
-            document.head.appendChild(s);
-        })()
-      </script>
+  (function() {
+      const url = new URL(window.location.href);
+      const clickID = url.searchParams.get("click_id");
+      const sourceID = url.searchParams.get("source_id");
+
+      const s = document.createElement("script");
+      s.dataset.cfasync = "false";
+      s.src = "https://sdk4push.com/f/sdk.js?z=1232259";
+      s.onload = (opts) => {
+          opts.zoneID = 1232259;
+          opts.extClickID = clickID;
+          opts.subID1 = sourceID;
+          opts.actions.onPermissionGranted = () => {};
+          opts.actions.onPermissionDenied = () => {};
+          opts.actions.onAlreadySubscribed = () => {};
+          opts.actions.onError = () => {};
+      };
+      document.head.appendChild(s);
+  })()
+</script>
     <!-- place your code between these tags -->
 
     <script>
